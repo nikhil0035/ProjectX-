@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "ProjectX",
+    "slug": "projectx",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "scheme": "projectx",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.projectx.mobile"
+    },
+    "android": {
+      "package": "com.projectx.mobile",
+      "adaptiveIcon": {
+        "backgroundColor": "#0b0b0b"
+      }
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
