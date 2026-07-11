@@ -2,8 +2,7 @@ services:
   - type: web
     name: projectx-backend
     runtime: docker
-    dockerfilePath: ./backend/Dockerfile
-    dockerContext: ./backend
+    rootDir: backend
     plan: free
     healthCheckPath: /health
     envVars:
